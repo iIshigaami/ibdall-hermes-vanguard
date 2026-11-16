@@ -1,0 +1,57 @@
+WIN   vs brawler seed 2654435761 side 0  hill_locked t=4641  dealt 130 taken 175  refused 0
+WIN   vs brawler seed 2654435761 side 1  hill_locked t=4641  dealt 118 taken 182  refused 0
+WIN   vs brawler seed 1013904226 side 0  hill_locked t=4641  dealt 125 taken 176  refused 0
+WIN   vs brawler seed 1013904226 side 1  hill_locked t=4675  dealt 115 taken 254  refused 0
+WIN   vs brawler seed 3668339987 side 0  eliminated t=1055  dealt 518 taken  84  refused 0
+WIN   vs brawler seed 3668339987 side 1  eliminated t=1358  dealt 530 taken 245  refused 0
+WIN   vs brawler seed 2027808452 side 0  hill_locked t=4561  dealt   0 taken   0  refused 0
+WIN   vs brawler seed 2027808452 side 1  hill_locked t=4561  dealt   0 taken   0  refused 0
+WIN   vs brawler seed  387276917 side 0  hill_locked t=4701  dealt 340 taken 412  refused 0
+WIN   vs brawler seed  387276917 side 1  hill_locked t=4721  dealt 145 taken 340  refused 0
+WIN   vs holder  seed 2654435761 side 0  hill_locked t=4401  dealt 268 taken 167  refused 0
+WIN   vs holder  seed 2654435761 side 1  hill_locked t=4561  dealt 191 taken 136  refused 0
+WIN   vs holder  seed 1013904226 side 0  hill_locked t=4621  dealt  25 taken 127  refused 0
+WIN   vs holder  seed 1013904226 side 1  hill_locked t=4561  dealt 268 taken 161  refused 0
+WIN   vs holder  seed 3668339987 side 0  hill_locked t=4561  dealt 440 taken 312  refused 0
+WIN   vs holder  seed 3668339987 side 1  eliminated t=1704  dealt 479 taken 317  refused 0
+WIN   vs holder  seed 2027808452 side 0  hill_locked t=4561  dealt   0 taken   0  refused 0
+WIN   vs holder  seed 2027808452 side 1  hill_locked t=4501  dealt   0 taken   0  refused 0
+WIN   vs holder  seed  387276917 side 0  hill_locked t=4701  dealt 251 taken 329  refused 0
+WIN   vs holder  seed  387276917 side 1  hill_locked t=4641  dealt 323 taken 381  refused 0
+WIN   vs random  seed 2654435761 side 0  hill_locked t=4321  dealt 172 taken   5  refused 0
+WIN   vs random  seed 2654435761 side 1  hill_locked t=4531  dealt 170 taken 171  refused 0
+WIN   vs random  seed 1013904226 side 0  hill_locked t=4561  dealt 225 taken 165  refused 0
+WIN   vs random  seed 1013904226 side 1  hill_locked t=4001  dealt 303 taken   0  refused 0
+WIN   vs random  seed 3668339987 side 0  eliminated t=1448  dealt 412 taken 111  refused 0
+WIN   vs random  seed 3668339987 side 1  eliminated t=3788  dealt 444 taken 228  refused 1
+WIN   vs random  seed 2027808452 side 0  eliminated t=1062  dealt 421 taken 132  refused 0
+WIN   vs random  seed 2027808452 side 1  hill_locked t=4401  dealt 271 taken 171  refused 0
+WIN   vs random  seed  387276917 side 0  hill_locked t=4621  dealt 132 taken 166  refused 0
+WIN   vs random  seed  387276917 side 1  hill_locked t=4411  dealt 275 taken 241  refused 5
+WIN   vs hunter  seed 2654435761 side 0  hill_locked t=4601  dealt   0 taken 161  refused 0
+WIN   vs hunter  seed 2654435761 side 1  eliminated t=1455  dealt 473 taken 145  refused 1
+WIN   vs hunter  seed 1013904226 side 0  hill_locked t=4641  dealt 127 taken 362  refused 0
+WIN   vs hunter  seed 1013904226 side 1  hill_locked t=4201  dealt 345 taken 231  refused 0
+WIN   vs hunter  seed 3668339987 side 0  hill_locked t=3921  dealt 286 taken 125  refused 0
+WIN   vs hunter  seed 3668339987 side 1  hill_locked t=4421  dealt 296 taken 343  refused 0
+WIN   vs hunter  seed 2027808452 side 0  hill_locked t=4721  dealt 148 taken 361  refused 0
+WIN   vs hunter  seed 2027808452 side 1  hill_locked t=4721  dealt 125 taken 369  refused 0
+LOSS  vs hunter  seed  387276917 side 0  eliminated t=2637  dealt  80 taken 522  refused 0
+LOSS  vs hunter  seed  387276917 side 1  eliminated t=3437  dealt 326 taken 498  refused 0
+
+=== summary ===
+games 40  W-L-D 38-2-0  win rate 95.0%  (2428 ms/game)
+  vs brawler  10-0-0
+  vs holder   10-0-0
+  vs random   10-0-0
+  vs hunter   8-2-0
+damage dealt/taken per game 232/208   refused orders per game 0.2   tick errors 0 in 0/40 games   matches aborted 0
+replays verified 40/40
+draft: mbt + mbt + mbt (your draft())
+
+=== profile (wall time in Node) ===
+hello() 40 calls  p50 6.929 ms  max 62.883 ms   draft() max 0.634 ms
+tick()  158269 calls  p50 0.010 ms  p99 0.276 ms  max 364.301 ms
+slowest ticks: 364.301 ms at tick 41 (vs brawler, seed 1013904226, side 0); 232.176 ms at tick 554 (vs hunter, seed 2654435761, side 0); 144.738 ms at tick 17 (vs brawler, seed 1013904226, side 0); 123.350 ms at tick 3 (vs random, seed 3668339987, side 1); 100.124 ms at tick 387 (vs brawler, seed 1013904226, side 1)
+WARNING: 420 tick() call(s) took over 0.8 ms here. The ladder runs your code in QuickJS, roughly 15-20x slower than Node's JIT, and stops a tick after 40 interrupt units: those ticks are likely to come back "tick: interrupted" there. Move the work into hello() (precompute) or spread it across ticks.
+rules s2.0.0 · local-test 1.2 · the ladder uses the same engine.

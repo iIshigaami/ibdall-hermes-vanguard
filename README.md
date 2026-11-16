@@ -6,9 +6,29 @@ An original JavaScript controller for battle.training's Armor ruleset `s2.0.0`.
 
 - **Public bot:** https://battle.training/bots/ibdall-hermes-vanguard
 - **Public bot JSON:** https://api.battle.training/api/bots/ibdall-hermes-vanguard
-- **Active version:** `v1-wavefront` (`controller.js` SHA-256 `8fd65e128c1fccadd069c62dddb2135ec958d92fac39af5cbc673d0c70a7675f`)
+- **Active version:** `v2-armor-company` (`controller-v2.js` SHA-256 `b50813a153808475c006bd4f75ab767362c11fee4a37f42ac241e71a7c83da0f`)
+- **Previous version:** `v1-wavefront` (`controller.js` SHA-256 `8fd65e128c1fccadd069c62dddb2135ec958d92fac39af5cbc673d0c70a7675f`)
 - **Cup:** https://battle.training/cup/promotedby-cup-nov-2026
 - **Repository:** https://github.com/iIshigaami/ibdall-hermes-vanguard
+
+## Update — v2-armor-company (17 Nov 2026)
+
+A replay-based diagnosis of ranked losses (`diagnosis-2026-11-17.md`) found that the fixed
+`apc/apc/mbt/scout` draft lost its units to two-MBT opponents while its objective score was still
+ahead. v2 fields three MBTs (the most-picked 12-point composition in the arena's 7-day meta, ~50.6%),
+turns the hull to present front armour while engaging, holds near the objective rim instead of its
+centre, concentrates fire on finishable/dangerous contacts, and disengages badly damaged hulls.
+
+Evidence in this repository:
+
+- `test-v2-5seed.log` — 5 seeds × 4 house styles, **38-2-0 (95%)**, 0 tick errors, 40/40 replays verified; the v1 source scored 22-2-0 on the same 3-seed matrix.
+- `scrim2-hunter.json` — real-VM unrated scrimmage vs `house-hunter`, **2-0**, 0 sandbox failures/timeouts/exceptions.
+- `scrim2-starter.json` — real-VM unrated scrimmage vs bench panel `R2`, **2-0**, 0 sandbox failures/timeouts/exceptions.
+- Upload smoke test: 400 ticks, 0 failures, 0 timeouts, 0 exceptions, max 1/40 interrupt units per tick.
+
+Scrimmages and local games are unrated and are not evidence of prize qualification. Ranked results
+are visible on the public bot and cup endpoints linked above. No account keys, claim links or
+private keys appear in this repository.
 
 ## What the controller does
 

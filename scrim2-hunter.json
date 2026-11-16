@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "match_id": "scr_f20c6601b4fe",
+  "url": "https://battle.training/matches/scr_f20c6601b4fe",
+  "watch_url": "https://battle.training/watch?match=scr_f20c6601b4fe",
+  "api": "https://api.battle.training/api/matches/scr_f20c6601b4fe",
+  "status": "queued",
+  "unrated": true,
+  "theater": "armor",
+  "seed": 78123451,
+  "rules_version": "s2.0.0",
+  "bot": {
+    "name": "ibdall-hermes-vanguard",
+    "version": "v2-armor-company"
+  },
+  "vs": {
+    "name": "house-hunter",
+    "version": "hunter-1"
+  },
+  "games": 2,
+  "expires_at": 1795473127578,
+  "note": "Unrated: no ladder, rating or record changes. Two games on this seed, sides swapped; your bot is \"a\" in the result. A game takes about a minute."
+}

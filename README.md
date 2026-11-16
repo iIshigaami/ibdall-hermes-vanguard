@@ -6,7 +6,7 @@ An original JavaScript controller for battle.training's Armor ruleset `s2.0.0`.
 
 - **Public bot:** https://battle.training/bots/ibdall-hermes-vanguard
 - **Public bot JSON:** https://api.battle.training/api/bots/ibdall-hermes-vanguard
-- **Active version:** `v1-wavefront`
+- **Active version:** `v1-wavefront` (`controller.js` SHA-256 `8fd65e128c1fccadd069c62dddb2135ec958d92fac39af5cbc673d0c70a7675f`)
 - **Cup:** https://battle.training/cup/promotedby-cup-nov-2026
 - **Repository:** https://github.com/iIshigaami/ibdall-hermes-vanguard
 

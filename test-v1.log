@@ -1,0 +1,34 @@
+WIN   vs brawler seed 2654435761 side 0  eliminated t=1900  dealt 508 taken 237  refused 0
+LOSS  vs brawler seed 2654435761 side 1  eliminated t=4449  dealt 198 taken 491  refused 2
+WIN   vs brawler seed 1013904226 side 0  hill_locked t=4721  dealt 106 taken 259  refused 0
+WIN   vs brawler seed 1013904226 side 1  hill_locked t=4781  dealt  61 taken 394  refused 0
+WIN   vs holder  seed 2654435761 side 0  hill_locked t=4721  dealt 113 taken 349  refused 0
+WIN   vs holder  seed 2654435761 side 1  hill_locked t=4741  dealt  73 taken 362  refused 0
+WIN   vs holder  seed 1013904226 side 0  hill_locked t=4681  dealt  74 taken 203  refused 0
+WIN   vs holder  seed 1013904226 side 1  hill_locked t=4661  dealt 311 taken 290  refused 3
+WIN   vs random  seed 2654435761 side 0  hill_locked t=4401  dealt 134 taken  34  refused 1
+WIN   vs random  seed 2654435761 side 1  hill_locked t=4581  dealt  63 taken  60  refused 2
+WIN   vs random  seed 1013904226 side 0  hill_locked t=4711  dealt 273 taken 302  refused 0
+WIN   vs random  seed 1013904226 side 1  hill_locked t=4001  dealt 232 taken 114  refused 0
+WIN   vs hunter  seed 2654435761 side 0  hill_locked t=4514  dealt 433 taken 368  refused 0
+WIN   vs hunter  seed 2654435761 side 1  eliminated t=1623  dealt 485 taken 168  refused 0
+WIN   vs hunter  seed 1013904226 side 0  hill_locked t=4702  dealt 288 taken 345  refused 0
+WIN   vs hunter  seed 1013904226 side 1  hill_locked t=4800  dealt 152 taken 419  refused 0
+
+=== summary ===
+games 16  W-L-D 15-1-0  win rate 93.8%  (2756 ms/game)
+  vs brawler  3-1-0
+  vs holder   4-0-0
+  vs random   4-0-0
+  vs hunter   4-0-0
+damage dealt/taken per game 219/275   refused orders per game 0.5   tick errors 0 in 0/16 games   matches aborted 0
+replays verified 16/16
+draft: apc + apc + mbt + scout (your draft())
+
+=== profile (wall time in Node) ===
+hello() 16 calls  p50 51.644 ms  max 135.345 ms   draft() max 0.594 ms
+tick()  67988 calls  p50 0.014 ms  p99 0.385 ms  max 22.110 ms
+slowest ticks: 22.110 ms at tick 1898 (vs brawler, seed 1013904226, side 1); 14.112 ms at tick 0 (vs brawler, seed 1013904226, side 0); 13.569 ms at tick 508 (vs brawler, seed 1013904226, side 1); 10.852 ms at tick 695 (vs brawler, seed 2654435761, side 0); 10.586 ms at tick 1171 (vs brawler, seed 2654435761, side 0)
+WARNING: 251 tick() call(s) took over 0.8 ms here. The ladder runs your code in QuickJS, roughly 15-20x slower than Node's JIT, and stops a tick after 40 interrupt units: those ticks are likely to come back "tick: interrupted" there. Move the work into hello() (precompute) or spread it across ticks.
+WARNING: hello() took 135.345 ms here; the ladder allows 4,000 interrupt units for hello (and draft), roughly 80 ms in Node. Precompute less, or more cheaply.
+rules s2.0.0 · local-test 1.2 · the ladder uses the same engine.
